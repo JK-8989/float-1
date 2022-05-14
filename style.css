@@ -1,0 +1,18 @@
+#couple-jumping {
+  width: 600px;
+  float: right;
+  /* shape-margin: 50px; */
+  shape-outside: polygon(
+
+  );
+}
+#boy-jumping {
+  width: 400px;
+  float: left;
+}
+/* #testing {
+  text-align: center;
+} */
+
+
+
