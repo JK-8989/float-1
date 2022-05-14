@@ -1,18 +1,45 @@
-#couple-jumping {
-  width: 600px;
-  float: right;
-  /* shape-margin: 50px; */
-  shape-outside: polygon(
+body {
+  width: 700px;
+  margin: auto;
+}
+h1 {
+  font-size: 4em;
+  display: inline-block;
+}
+h3 {
+  margin-left: 350px;
+  font-size: 3em;
+}
+#title {
+  margin: 0 400px 0 0;
+  font-size: 1.6em;
+}
 
-  );
+#couple-jumping {
+  width: 90%;
+  float: right;
+  shape-outside: polygon(
+    151px 555px, 136px 531px, 119px 421px, 136px 380px, 135px 309px, 14px 197px, 34px 148px, 76px 182px, 76px 199px, 117px 228px, 169px 197px, 226px 215px, 246px 256px, 306px 228px, 296px 209px, 330px 177px, 302px 127px, 262px 67px, 268px 36px, 314px 42px, 334px 92px, 360px 137px, 381px 146px, 381px 113px, 410px 90px, 438px 88px, 463px 127px, 498px 105px, 495px 65px, 482px 7px, 508px -8px, 576px 3px, 587px 140px, 525px 210px, 511px 298px, 525px 314px, 510px 327px, 543px 486px, 462px 522px, 444px 424px, 421px 494px, 344px 511px, 315px 471px, 311px 423px, 366px 379px, 387px 306px, 371px 237px, 315px 309px, 252px 327px, 235px 352px, 249px 400px, 241px 484px, 283px 598px, 257px 638px, 225px 607px, 190px 633px);
 }
 #boy-jumping {
   width: 400px;
   float: left;
+  shape-outside: polygon(
+    0px 0px, 304px 16px, 324px 41px, 317px 105px, 260px 144px, 238px 187px, 247px 252px, 271px 330px, 270px 378px, 250px 397px, 198px 368px, 140px 388px, 83px 387px);
 }
-/* #testing {
-  text-align: center;
-} */
-
+p {
+  line-height: 2;
+  /* text-align: center; */
+}
+#p-1 {
+  margin-top: 500px;
+}
+span {
+  font-size: 1.5em;
+}
+#reference {
+  margin: 100px 0;
+ text-align: end;
+}
 
 
